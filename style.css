@@ -1,0 +1,120 @@
+                /* Fotographiya logo at the top  */
+body img{
+  width: 250px; 
+  height: auto; 
+  display: block;
+  margin: 5px; 
+  padding: 10px;
+  
+}
+body {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.container1 fa-brands fa-google {
+  text-align: left;
+  font-size: medium;
+}
+
+/* for login and sign up buttons */
+.login-signup a{
+  background-color: rgb(218, 204, 204);
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+  display: flexbox;
+  flex-direction: column;
+  text-decoration:none;
+  
+  
+}
+
+.container1 button {
+  margin: 10px;
+  display: inline-block; 
+  padding: 10px 25px; 
+  font-size: 15px; 
+  font-weight: bold; 
+  text-align: center; 
+  text-decoration: none; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 18px; 
+  color: #fff;
+  background-color: black; 
+  transition: background-color 0.3s; 
+  padding-left: 72%;
+  
+  
+}
+   /* to style email and password plus there boxes */
+.input-container {
+  color:grey;
+  margin-bottom: 20px;
+  padding-left: 50%;
+}
+
+.input-container label {
+  display: block; /* Make labels display as block elements */
+  margin-bottom: -10px; /* Add margin at the bottom of labels for spacing */
+ 
+}
+
+.input-container input {
+  width: 25%; /* Make input boxes take up the full width of their container */
+  padding: 8px; /* Add padding for better spacing inside input boxes */
+  border: 1px solid grey; /* Add a border around input boxes */
+  border-radius: 25px; /* Add rounded corners to input boxes */
+  box-sizing: border-box; /* Include padding and border in the total width/height */
+  text-align: center ;
+  padding-left: 50%;
+}
+                /* to style email box  */
+.email-box {
+  background-color: white;
+  padding-left: 70%;
+}
+                /* to style password box  */
+.password-box {
+  background-color: white; 
+  padding-left: 70%;
+}
+                /* remember me styling */
+.Remember-me {
+  color: black;
+  padding-left: 71%;
+  margin-top: -10px;
+  font-size: small;
+}       
+                /* login button styling */
+
+                .login {
+                  display: inline-block; 
+                  padding: 10px 20px; 
+                  font-size: 2px; 
+                  font-weight: bold; 
+                  text-align: left; 
+                  text-decoration: none; 
+                  cursor: pointer; 
+                  border: none; 
+                  border-radius: 20px; 
+                  background-color: black; 
+                  transition: background-color 0.3s; 
+                  position: absolute;
+                }                
+              /* login button hover */
+.button:hover {
+  background-color: rgb(93, 107, 73); 
+}
+                /* to style an emoji */
+.emoji {
+  font-size: xx-large;
+  padding-left: 85%;
+
+}
+.two-lines p {
+  padding-left: 70%;
+}
